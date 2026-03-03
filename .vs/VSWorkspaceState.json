@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\-p",
+    "\\src",
+    "\\src\\WarGame.Console",
+    "\\src\\WarGame.Core"
   ],
-  "SelectedNode": "\\C:\\Users\\ryans\\source\\repos\\project-2-rynostidham",
+  "SelectedNode": "\\src\\WarGame.Core\\Card.cs",
   "PreviewInSolutionExplorer": false
 }
