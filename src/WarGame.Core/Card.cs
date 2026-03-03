@@ -24,3 +24,4 @@ public class Card : IComparable<Card>
         return $"{Rank} of {Suit}";
     }
 }
+//Just a test to see if this works
