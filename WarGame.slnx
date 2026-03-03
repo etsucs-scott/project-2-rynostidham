@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/WarGame.Console/WarGame.Console.csproj" />
+    <Project Path="src/WarGame.Core/WarGame.Core.csproj" />
+  </Folder>
+</Solution>
