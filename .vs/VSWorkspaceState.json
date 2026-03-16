@@ -6,5 +6,6 @@
     "\\src\\WarGame.Console",
     "\\src\\WarGame.Core"
   ],
+  "SelectedNode": "\\src\\WarGame.Core\\WarGameEngine.cs",
   "PreviewInSolutionExplorer": false
 }

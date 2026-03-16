@@ -1,7 +1,52 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Console\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\WarGame.Console\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\WarGameEngine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\WarGame.Core\\WarGameEngine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\WarGameResults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\WarGame.Core\\WarGameResults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\PlayerHands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\WarGame.Core\\PlayerHands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\Hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\WarGame.Core\\Hand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\Card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\WarGame.Core\\Card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\Deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\WarGame.Core\\Deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\Suit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\WarGame.Core\\Suit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\WarGame.Core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\WarGame.Core\\WarGame.Core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Console\\WarGame.Console.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\WarGame.Console\\WarGame.Console.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\Rank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\WarGame.Core\\Rank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +67,148 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerHands.cs",
+              "DocumentMoniker": "C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\PlayerHands.cs",
+              "RelativeDocumentMoniker": "src\\WarGame.Core\\PlayerHands.cs",
+              "ToolTip": "C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\PlayerHands.cs",
+              "RelativeToolTip": "src\\WarGame.Core\\PlayerHands.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T20:00:47.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WarGameResults.cs",
+              "DocumentMoniker": "C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\WarGameResults.cs",
+              "RelativeDocumentMoniker": "src\\WarGame.Core\\WarGameResults.cs",
+              "ToolTip": "C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\WarGameResults.cs",
+              "RelativeToolTip": "src\\WarGame.Core\\WarGameResults.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T20:03:08.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WarGameEngine.cs",
+              "DocumentMoniker": "C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\WarGameEngine.cs",
+              "RelativeDocumentMoniker": "src\\WarGame.Core\\WarGameEngine.cs",
+              "ToolTip": "C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\WarGameEngine.cs",
+              "RelativeToolTip": "src\\WarGame.Core\\WarGameEngine.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAFUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T20:04:07.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Hand.cs",
+              "DocumentMoniker": "C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\Hand.cs",
+              "RelativeDocumentMoniker": "src\\WarGame.Core\\Hand.cs",
+              "ToolTip": "C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\Hand.cs",
+              "RelativeToolTip": "src\\WarGame.Core\\Hand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T19:57:09.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Card.cs",
+              "DocumentMoniker": "C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\Card.cs",
+              "RelativeDocumentMoniker": "src\\WarGame.Core\\Card.cs",
+              "ToolTip": "C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\Card.cs",
+              "RelativeToolTip": "src\\WarGame.Core\\Card.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T19:54:50.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Deck.cs",
+              "DocumentMoniker": "C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\Deck.cs",
+              "RelativeDocumentMoniker": "src\\WarGame.Core\\Deck.cs",
+              "ToolTip": "C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\Deck.cs",
+              "RelativeToolTip": "src\\WarGame.Core\\Deck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T19:54:52.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Suit.cs",
+              "DocumentMoniker": "C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\Suit.cs",
+              "RelativeDocumentMoniker": "src\\WarGame.Core\\Suit.cs",
+              "ToolTip": "C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\Suit.cs",
+              "RelativeToolTip": "src\\WarGame.Core\\Suit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T19:54:54.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WarGame.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\WarGame.Core.csproj",
+              "RelativeDocumentMoniker": "src\\WarGame.Core\\WarGame.Core.csproj",
+              "ToolTip": "C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\WarGame.Core.csproj",
+              "RelativeToolTip": "src\\WarGame.Core\\WarGame.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-16T23:40:30.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WarGame.Console.csproj",
+              "DocumentMoniker": "C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Console\\WarGame.Console.csproj",
+              "RelativeDocumentMoniker": "src\\WarGame.Console\\WarGame.Console.csproj",
+              "ToolTip": "C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Console\\WarGame.Console.csproj",
+              "RelativeToolTip": "src\\WarGame.Console\\WarGame.Console.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-16T23:40:27.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Console\\Program.cs",
+              "RelativeDocumentMoniker": "src\\WarGame.Console\\Program.cs",
+              "ToolTip": "C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Console\\Program.cs",
+              "RelativeToolTip": "src\\WarGame.Console\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T19:54:48.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Rank.cs",
+              "DocumentMoniker": "C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\Rank.cs",
+              "RelativeDocumentMoniker": "src\\WarGame.Core\\Rank.cs",
+              "ToolTip": "C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\Rank.cs",
+              "RelativeToolTip": "src\\WarGame.Core\\Rank.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T19:54:53.471Z"
             }
           ]
         }

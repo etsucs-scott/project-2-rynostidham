@@ -14,6 +14,14 @@ namespace WarGame.Core
         public PlayerHands PlayerHands { get; } = new PlayerHands();
         private readonly List<Card> _pot = new List<Card>();
 
+        private int _roundNumber = 0;
+
+        // Events for console reporting (Task 3)
+        public event Action<int, Dictionary<string, Card>>? RoundStarted;
+        public event Action<List<string>>? TieDetected;
+        public event Action<string>? RoundWinner;
+        public event Action<Dictionary<string, int>>? CardCountsUpdated;
+
         public WarGameEngine(IEnumerable<string> playerNames, Deck deck)
         {
             InitializeHands(playerNames);
@@ -50,15 +58,13 @@ namespace WarGame.Core
         /// </summary>
         public WarGameResult PlayGame()
         {
-            int round = 0;
-
-            while (round < RoundLimit && MoreThanOnePlayerHasCards())
+            while (_roundNumber < RoundLimit && MoreThanOnePlayerHasCards())
             {
-                round++;
+                _roundNumber++;
                 PlayRound();
             }
 
-            return DetermineResult(round);
+            return DetermineResult();
         }
 
         private bool MoreThanOnePlayerHasCards()
@@ -66,9 +72,9 @@ namespace WarGame.Core
             return PlayerHands.Hands.Values.Count(h => h.HasCards) > 1;
         }
 
-        private WarGameResult DetermineResult(int roundsPlayed)
+        private WarGameResult DetermineResult()
         {
-            var result = new WarGameResult { RoundsPlayed = roundsPlayed };
+            var result = new WarGameResult { RoundsPlayed = _roundNumber };
 
             var alive = PlayerHands.Hands
                 .Where(kvp => kvp.Value.HasCards)
@@ -87,7 +93,7 @@ namespace WarGame.Core
                 return result;
             }
 
-            // Round limit or multiple players left: pick highest card count
+            // Round limit reached → highest card count wins
             int maxCount = alive[0].Value.Count;
             var top = alive.Where(kvp => kvp.Value.Count == maxCount).ToList();
 
@@ -110,37 +116,31 @@ namespace WarGame.Core
         {
             _pot.Clear();
 
-            // Start with all players who have cards
             var activePlayers = PlayerHands.Hands
                 .Where(kvp => kvp.Value.HasCards)
                 .Select(kvp => kvp.Key)
                 .ToList();
 
             if (activePlayers.Count <= 1)
-            {
                 return;
-            }
 
             ResolveBattle(activePlayers);
         }
 
         /// <summary>
         /// Resolves a battle (normal round or tiebreaker) among the given players.
-        /// Adds all played cards to the pot and awards it to the eventual winner.
         /// </summary>
         private void ResolveBattle(List<string> playersInBattle)
         {
-            // Dictionary of face-up cards this sub-round
             var playedCards = new Dictionary<string, Card>();
 
-            // Each player plays one card if possible
+            // Each player plays one card
             foreach (var name in playersInBattle.ToList())
             {
                 var hand = PlayerHands[name];
 
                 if (!hand.HasCards)
                 {
-                    // Eliminated from this battle (and effectively from game)
                     playersInBattle.Remove(name);
                     continue;
                 }
@@ -151,11 +151,12 @@ namespace WarGame.Core
             }
 
             if (playedCards.Count == 0)
-            {
                 return;
-            }
 
-            // Find highest rank
+            // Notify console
+            RoundStarted?.Invoke(_roundNumber, playedCards);
+
+            // Determine highest rank
             var maxRank = playedCards.Max(kvp => kvp.Value.Rank);
             var highestPlayers = playedCards
                 .Where(kvp => kvp.Value.Rank == maxRank)
@@ -164,23 +165,22 @@ namespace WarGame.Core
 
             if (highestPlayers.Count == 1)
             {
-                // Single winner: award pot
                 AwardPotToWinner(highestPlayers[0]);
+                RoundWinner?.Invoke(highestPlayers[0]);
                 return;
             }
 
-            // Tie: only tied players continue in tiebreaker
+            // Tie detected
+            TieDetected?.Invoke(highestPlayers);
+
+            // Only tied players continue
             var tiedPlayers = highestPlayers
                 .Where(name => PlayerHands[name].HasCards)
                 .ToList();
 
-            // If no tied players can continue, pot is effectively lost; do nothing
             if (tiedPlayers.Count == 0)
-            {
                 return;
-            }
 
-            // Recurse for tiebreaker: one more face-up card each
             ResolveBattle(tiedPlayers);
         }
 
@@ -188,13 +188,16 @@ namespace WarGame.Core
         {
             var winnerHand = PlayerHands[winnerName];
 
-            // Cards must be added in the order they were played.
             foreach (var card in _pot)
             {
                 winnerHand.Enqueue(card);
             }
 
             _pot.Clear();
+
+            // Update card counts
+            var counts = PlayerHands.Hands.ToDictionary(kvp => kvp.Key, kvp => kvp.Value.Count);
+            CardCountsUpdated?.Invoke(counts);
         }
     }
 }
