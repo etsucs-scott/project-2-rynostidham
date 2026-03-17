@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,19 +70,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerHands.cs",
-              "DocumentMoniker": "C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\PlayerHands.cs",
-              "RelativeDocumentMoniker": "src\\WarGame.Core\\PlayerHands.cs",
-              "ToolTip": "C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\PlayerHands.cs",
-              "RelativeToolTip": "src\\WarGame.Core\\PlayerHands.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T20:00:47.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "WarGameResults.cs",
               "DocumentMoniker": "C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\WarGameResults.cs",
@@ -91,8 +78,7 @@
               "RelativeToolTip": "src\\WarGame.Core\\WarGameResults.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T20:03:08.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T20:03:08.113Z"
             },
             {
               "$type": "Document",
@@ -104,8 +90,7 @@
               "RelativeToolTip": "src\\WarGame.Core\\WarGameEngine.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAFUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T20:04:07.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T20:04:07.49Z"
             },
             {
               "$type": "Document",
@@ -117,8 +102,7 @@
               "RelativeToolTip": "src\\WarGame.Core\\Hand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T19:57:09.173Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T19:57:09.173Z"
             },
             {
               "$type": "Document",
@@ -130,8 +114,7 @@
               "RelativeToolTip": "src\\WarGame.Core\\Card.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T19:54:50.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T19:54:50.496Z"
             },
             {
               "$type": "Document",
@@ -143,8 +126,7 @@
               "RelativeToolTip": "src\\WarGame.Core\\Deck.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T19:54:52.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T19:54:52.496Z"
             },
             {
               "$type": "Document",
@@ -156,8 +138,7 @@
               "RelativeToolTip": "src\\WarGame.Core\\Suit.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T19:54:54.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T19:54:54.531Z"
             },
             {
               "$type": "Document",
@@ -169,8 +150,7 @@
               "RelativeToolTip": "src\\WarGame.Core\\WarGame.Core.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-16T23:40:30.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T23:40:30.432Z"
             },
             {
               "$type": "Document",
@@ -182,8 +162,7 @@
               "RelativeToolTip": "src\\WarGame.Console\\WarGame.Console.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-16T23:40:27.382Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T23:40:27.382Z"
             },
             {
               "$type": "Document",
@@ -197,6 +176,18 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-16T19:54:48.98Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerHands.cs",
+              "DocumentMoniker": "C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\PlayerHands.cs",
+              "RelativeDocumentMoniker": "src\\WarGame.Core\\PlayerHands.cs",
+              "ToolTip": "C:\\Users\\ryans\\source\\repos\\project-2-rynostidham\\src\\WarGame.Core\\PlayerHands.cs",
+              "RelativeToolTip": "src\\WarGame.Core\\PlayerHands.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T20:00:47.573Z"
             },
             {
               "$type": "Document",

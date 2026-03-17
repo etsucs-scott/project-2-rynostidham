@@ -1,27 +1,24 @@
-﻿using System
-    /// <summary>
-    /// Represents a singe playing card with suits and ranks.
-    /// </summary>
-public class Card : IComparable<Card>
+﻿using System;
+
+namespace WarGame.Core
 {
-    public Suit Suit { get; }
-    public Rank Rank { get; }
-
-    public Card(Suit suit, Rank rank)
+    public class Card : IComparable<Card>
     {
-        Suit = suit;
-        Rank = rank;
-    }
+        public Suit Suit { get; }
+        public Rank Rank { get; }
 
-    public int CompareTo(Card? other)
-    {
-        if (other == null) return 1;
-        return Rank.CompareTo(other.Rank);
-    }
+        public Card(Suit suit, Rank rank)
+        {
+            Suit = suit;
+            Rank = rank;
+        }
 
-    public override string ToString()
-    {
-        return $"{Rank} of {Suit}";
+        public int CompareTo(Card? other)
+        {
+            if (other == null) return 1;
+            return Rank.CompareTo(other.Rank);
+        }
+
+        public override string ToString() => $"{Rank} of {Suit}";
     }
 }
-//Just a test to see if this works
