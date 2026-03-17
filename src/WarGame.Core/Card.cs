@@ -1,5 +1,7 @@
 ﻿using System;
-
+///<summary>
+///Creates all cards with suit and rank
+/// </summary>
 namespace WarGame.Core
 {
     public class Card : IComparable<Card>
