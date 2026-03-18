@@ -1,43 +1,19 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/hZIAsDPT)
-# CSCI 1260 — Project
+//War Game README//
+This project implements a full simulation of the War card game allowing 2-4 players to simulate 10,000 rounds
+Generating results for each round and a final game winner.
 
-## Project Instructions
-All project requirements, grading criteria, and submission details are provided on **D2L**.  
-Refer to D2L as the *authoritative source* for this assignment.
+- WarGame.Core - Holds all game logic 
+- WarGame.Console - The console that handles input/output
 
-This repository is intentionally minimal. You are responsible for:
-- Creating the solution and projects
-- Designing the class structure
-- Implementing the required functionality
+//Build and Run Instruction//
 
----
+Using Visual Studio 
+1. Open the Program.cs class in WarGame.Console
+2. Build the solution 
+3. Run the game from the Program.cs 
 
-## Getting Started (CLI)
+The console will ask you to input number of players 2-4 
 
-You may use **Visual Studio**, **VS Code**, or the **terminal**.
-
-### Create a solution
-```bash
-dotnet new sln -n ProjectName
-```
-
-### Create a project (example: console app)
-```bash
-dotnet new console -n ProjectName.App
-```
-
-### Add the project to the solution
-```bash
-dotnet sln add ProjectName.App
-```
-
-### Build and run
-```bash
-dotnet build
-dotnet run --project ProjectName.App
-```
-
-## Notes
-- Commit early and commit often.
-- Your repository history is part of your submission.
-- Update this README with build/run instructions specific to your project.
+//Github notes// 
+This is the github URL I used for the project 
+https://github.com/etsucs-scott/project-2-rynostidham.git
